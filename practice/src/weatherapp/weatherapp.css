@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#parentall {
+    background-image: url(https://www.desktopbackground.org/download/1600x900/2015/01/29/894815_storm-weather-rain-sky-clouds-nature-desert-sand-landscape_2048x1367_h.jpg);
+    height: 630px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#inputfield {
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+
+#inputfield input {
+    width: 80%;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 1px solid black;
+    background-color: rgb(39, 44, 26);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    padding-left: 20px;
+}
+
+#inputfield button {
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(95, 12, 142);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    height: 50px;
+}
+
+#inputfield button:hover {
+    color: wheat;
+    background-color: blueviolet;
+}
+
+#form {
+    display: flex;
+}
+
+#parent {
+    /* border: 1px solid black; */
+    display: flex;
+    /* background-image: url(https://www.desktopbackground.org/download/1600x900/2015/01/29/894815_storm-weather-rain-sky-clouds-nature-desert-sand-landscape_2048x1367_h.jpg); */
+}
+
+#leftside {
+    width: 35%;
+    margin-left: 20px;
+    /* border: 1px solid orange; */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxejY9xSPmTHZXiWRxRtgdKRonWIPlRLr-iA&s); */
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: rgb(39, 44, 26);
+    opacity: 80%;
+
+}
+
+#forecasts {
+    /* border: 1px solid green; */
+    color: white;
+}
+
+#forecasts h2 {
+    text-align: center;
+    height: 25px;
+    padding: 10px;
+}
+
+#rightside {
+    width: 65%;
+    /* border: 1px solid orange; */
+}
+
+#forecasts div {
+    margin-bottom: 20px;
+}
+
+#foreinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#forei {
+    text-align: left;
+    font-family: cursive;
+    display: flex;
+    color: white;
+    line-height: 45px;
+}
+
+#forei i {
+    margin-right: 25px;
+}
+
+#righttop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#p12 {
+    display: flex;
+}
+
+#right1 {
+    height: 200px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+
+#right2 {
+    width: 190px;
+    height: 50px;
+    border-radius: 20%;
+    color: azure;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+}
+
+#right3 {
+    background-color: rgb(39, 44, 26);
+    height: 190px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 30%;
+    border: 8px solid rgb(95, 12, 142);
+    font-size: 10px;
+    color: white;
+    margin-right: 20px;
+}
+
+#r3b {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlJihgfmbdmjaAEe2DWid9p8vyr6PBFDLE9A&s);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 30px;
+    height: 130px;
+    margin-top: 10px;
+    width: 130px;
+}
+
+#rightmid {
+    height: 187px;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mid1 {
+    font-size: 40px;
+    color: white;
+    /* margin-left: 200px; */
+}
+
+#tempp {
+    display: flex;
+    width: 280px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tempb {
+    background-image: url(https://wallpapers.com/images/hd/temperature-icon-hot-cold-gradient-background-cl0us3lqfzvq0p1a.jpg);
+    height: 60px;
+    width: 60px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+#rightbot {
+    height: 155px;
+    /* border: 1px solid rebeccapurple; */
+    background-color: rgb(39, 44, 26);
+    border-radius: 30px;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    color: white;
+    justify-content: space-around;
+}
+
+#bot1 {
+    border: 8px solid rgb(185, 20, 218);
+    width: 190px;
+    border-radius: 40%;
+    background-color: black;
+    opacity: 0.7;
+    color: azure;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 40px; */
+    justify-content: space-evenly;
+}
+
+#bot1 i {
+    color: blue;
+}
+
+#bot2 {
+    width: 190px;
+    border: 8px solid rgb(185, 20, 218);
+    border-radius: 10%;
+    background-color: black;
+    opacity: 0.7;
+    color: azure;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* margin-right: 40px; */
+}
+
+#ib0 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmGA-P--6Ozx2vR4QpqiU8yiYPIndJJc9LA&s);
+    height: 80px;
+    width: 80px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#ib1 {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/038/730/007/non_2x/visibility-off-line-gradient-circle-icon-vector.jpg);
+    height: 80px;
+    width: 80px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#ib2 {
+    background-image: url(https://cdn-icons-png.freepik.com/512/6801/6801593.png);
+    height: 80px;
+    width: 80px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#ib3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXPXwQu7O58OGfZQkn2wWtRJg62-7tLQHhiQ&s);
+    height: 80px;
+    width: 80px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#ib4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjz91Ct7M1QSPcGF_qxr0_224OfFeBiBFdw&s);
+    height: 80px;
+    width: 80px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#ib5 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwBtJsF0lutOzSc5Q0334Yp_vFdsQYSEaqJw&s);
+    height: 80px;
+    width: 80px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.rbd {
+    width: 20%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
